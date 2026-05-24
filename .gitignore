@@ -1,0 +1,13 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspacedata
+.netrc
+Package.resolved
+*.xcodeproj
+build/
+luajit-source/
+source_files.txt
