@@ -4,6 +4,7 @@ import PackageDescription
 let package = Package(
     name: "luajit-spm",
     platforms: [
+        .iOS(.v13),
         .macOS(.v10_15)
     ],
     products: [
