@@ -1,7 +1,5 @@
 module LuaJIT {
-    header "luajit.h"
-    header "lua.h"
-    header "lualib.h"
-    header "lauxlib.h"
+    umbrella "."
     export *
+    module * { export * }
 }
